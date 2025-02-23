@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class TtextTheme {
   TtextTheme._();
+
+  //CUSTOMIZE THEME FOR LIGHTTEXTTHEME
   static TextTheme lightTextTheme = TextTheme(
       headlineLarge: TextStyle().copyWith(
           fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black),
@@ -23,7 +25,7 @@ class TtextTheme {
           fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
       labelMedium: TextStyle().copyWith(
           fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black));
-
+//CUSTOMIZE THEME FOR DARKTEXTTHEME
   static TextTheme darkTextTheme = TextTheme(
       headlineLarge: TextStyle().copyWith(
           fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
