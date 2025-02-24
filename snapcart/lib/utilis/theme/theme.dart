@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:snapcart/utilis/theme/customtheme/elevatedbuttontheme.dart";
 import "package:snapcart/utilis/theme/customtheme/texttheme.dart";
 
 class TAppTheme {
@@ -9,12 +10,14 @@ class TAppTheme {
       brightness: Brightness.light,
       primaryColor: Colors.blue,
       scaffoldBackgroundColor: Colors.white,
-      textTheme: TtextTheme.lightTextTheme);
+      textTheme: TtextTheme.lightTextTheme,
+      elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme);
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'Poppins',
       brightness: Brightness.dark,
       primaryColor: Colors.blue,
       scaffoldBackgroundColor: Colors.black,
-      textTheme: TtextTheme.darkTextTheme);
+      textTheme: TtextTheme.darkTextTheme,
+      elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme);
 }

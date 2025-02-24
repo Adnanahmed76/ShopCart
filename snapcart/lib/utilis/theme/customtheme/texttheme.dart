@@ -10,21 +10,21 @@ class TtextTheme {
       headlineMedium: TextStyle().copyWith(
           fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
       titleLarge: TextStyle().copyWith(
-          fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
       titleMedium: TextStyle().copyWith(
-          fontSize: 20, fontWeight: FontWeight.w800, color: Colors.black),
+          fontSize: 10, fontWeight: FontWeight.w800, color: Colors.black),
       titleSmall: TextStyle().copyWith(
-          fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.black),
       bodyLarge: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.black),
       bodyMedium: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 14, fontWeight: FontWeight.bold, color: Colors.black),
       bodySmall: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 14, fontWeight: FontWeight.bold, color: Colors.black),
       labelLarge: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.black),
       labelMedium: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black));
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.black));
 //CUSTOMIZE THEME FOR DARKTEXTTHEME
   static TextTheme darkTextTheme = TextTheme(
       headlineLarge: TextStyle().copyWith(
@@ -34,17 +34,17 @@ class TtextTheme {
       titleLarge: TextStyle().copyWith(
           fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
       titleMedium: TextStyle().copyWith(
-          fontSize: 20, fontWeight: FontWeight.w800, color: Colors.white),
+          fontSize: 10, fontWeight: FontWeight.w800, color: Colors.white),
       titleSmall: TextStyle().copyWith(
-          fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.white),
       bodyLarge: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
+          fontSize: 10, fontWeight: FontWeight.bold, color: Colors.white),
       bodyMedium: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white),
+          fontSize: 14, fontWeight: FontWeight.bold, color: Colors.white),
       bodySmall: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 14, fontWeight: FontWeight.bold, color: Colors.black),
       labelLarge: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+          fontSize: 14, fontWeight: FontWeight.bold, color: Colors.black),
       labelMedium: TextStyle().copyWith(
-          fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black));
+          fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black));
 }
