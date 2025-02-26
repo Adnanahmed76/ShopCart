@@ -11,7 +11,7 @@ import "package:snapcart/utilis/theme/customtheme/texttheme.dart";
 class TAppTheme {
   TAppTheme._();
   static ThemeData lighTheme = ThemeData(
-      useMaterial3: true,
+      useMaterial3: false,
       fontFamily: 'Poppins',
       brightness: Brightness.light,
       primaryColor: Colors.blue,
