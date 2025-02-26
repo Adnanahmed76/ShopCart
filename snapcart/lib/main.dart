@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:snapcart/utilis/theme/theme.dart';
 
 void main() {
+  // TODO: Add widgets Binding
+// Todo Init local Storage
+// Todo wait Native splash
+//Todo initialze firebase
+//todo Initialize authentication
+
   runApp(const MyApp());
 }
 
