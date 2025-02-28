@@ -10,11 +10,11 @@ class TAppbarTheme {
       surfaceTintColor: Colors.transparent,
       iconTheme: IconThemeData(
         color: Colors.white,
-        size: 10,
+        size: 9,
       ),
       actionsIconTheme: IconThemeData(color: Colors.black, size: 24),
       titleTextStyle: TextStyle(
-          fontSize: 18, fontWeight: FontWeight.w500, color: Colors.black));
+          fontSize: 20, fontWeight: FontWeight.w500, color: Colors.black));
 
   //appbar theme for dark
   static final darkAppBarTheme = AppBarTheme(
