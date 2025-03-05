@@ -10,6 +10,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lighTheme,
       darkTheme: TAppTheme.darkTheme,
+      themeAnimationCurve: ,
     );
   }
 }
