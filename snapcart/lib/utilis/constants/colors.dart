@@ -8,7 +8,7 @@ class TColors {
   static Color accent = Color(0xFFb0c7ff);
   //gradian Color
   static Gradient linearGradiant = LinearGradient(
-    begin: Alignment(0.0, 0.0),
+      begin: Alignment(0.0, 0.0),
       colors: [Color(0xffff9a9a), Color(0xfffad0c4), Color(0xfffad0c4)]);
   //textColor
   static Color textPrimary = Color(0xFF333333);
@@ -44,5 +44,4 @@ class TColors {
   static Color softGrey = Color(0xFF4F4F4);
   static Color lightGrey = Color(0xFFF9F9F9);
   static Color white = Color(0xFFFFFFF);
-  static Color Darkwhite=
 }
