@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:snapcart/utilis/constants/colors.dart';
 import 'package:snapcart/utilis/theme/theme.dart';
 
 void main() {
@@ -8,7 +9,7 @@ void main() {
 //Todo initialze firebase
 //todo Initialize authentication
 
-  runApp(const MyApp());
+  TColors.runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
