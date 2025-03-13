@@ -52,4 +52,10 @@ class TSizes {
   static const double cardRadiousSm = 10.0;
   static const double cardRadiousXs = 6.0;
   static const double cardElevation = 2.0;
+  //image carousel height
+  static const double imageCarouselHeight = 200.0;
+  //loading indicatior size
+  static const double loadingIndicatorSize = 36.0;
+  //grid view spacing
+  static const double gridViewSpacing = 16.0;
 }
