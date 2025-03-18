@@ -8,8 +8,6 @@ void main() {
 // Todo wait Native splash
 //Todo initialze firebase
 //todo Initialize authentication
-
-  TColors.runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
