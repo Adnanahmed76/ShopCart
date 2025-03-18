@@ -12,8 +12,4 @@ class TDeviceUtils {
     SystemChrome.setSystemUIOverlayStyle(
         SystemUiOverlayStyle(statusBarColor: color));
   }
-
-  static bool isLandscopeOrientation(BuildContext context) {
-    final viewInserts = view.of(context).viewInserts;
-  }
 }
